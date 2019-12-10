@@ -1,0 +1,45 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+  font-family: 'Literata', serif;
+  font-size: 5em;
+}
+
+
+/*smartphones*/
+@media (max-width: 480px){
+  h1 {
+    font-size: 1em;
+    }
+}
+
+/*low resolution tablets, mobiles (landscape)*/
+@media (min-width: 481px) and (max-width: 767px){
+  h1 {
+    font-size: 2em;
+    }
+
+}
+
+  /*tablets, ipads (portrait)*/
+@media (min-width: 768px) and (max-width: 1024px){
+  h1 {
+    font-size: 4em;
+    }
+}
+
+/*laptop, desktops*/
+@media (min-width: 1025px) and (max-width: 1280px){
+  h1 {
+    font-size: 5em;
+    }
+}
+
+/*laptop, desktops*/
+@media (min-width: 1281px){
+/* h1 {
+  font-size: 15em;
+  } */
+}
