@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="fr" dir="ltr">
   <head>
     <meta charset="utf-8">
     <link rel="apple-touch-icon" sizes="180x180" href="images/logos-n-icons/favs/apple-touch-icon.png">
@@ -11,190 +11,259 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-config" content="images/logos-n-icons/favs/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
-    <title>Page one</title>
-    <link rel="stylesheet" href="../ian_project/css/main.css">
+    <title>La liste</title>
+    <link href="https://fonts.googleapis.com/css?family=Literata|Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/vendor/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/styles.css">
+
   </head>
+
+
   <body>
     <header>
-      <div class="site-id">
-        <img src="images/logos-n-icons/logo-01.svg" alt="Gorilla CSS" class="logo">
-        <h1 class="site-title">Gorilla CSS</h1>
+    <div class="site-id">
+      <a href="index.html"><img src="images/logos-n-icons/logo-01.svg" alt="Gorilla CSS" class="logo"></a>
+      <h1 class="site-title">Gorilla <br/> CSS</h1>
+    </div>
+
+  <!-- BURGER MENU -->
+      <a href="#main-menu" class="menu-toggle">
+        <div class="burger-breads">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </a>
+
+
+      <nav id="main-menu" class="main-menu">
+        <a href="#main-menu-toggle" class="menu-close">
+          <div class="burger-breads close">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </a>
+
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="list.html">Lists</a></li>
+          <li><a href="01-proboscis.html">Proboscis</a></li>
+          </ul>
+        </nav>
+
+        <a href="#main-menu-toggle" class="backdrop" hidden></a>
+      </header>
+
+    <!-- //FIN BURGER MENU -->
+
+  <article class="corps">
+
+    <h1>Here are the gorillas</h1>
+
+    <div class="gorilla-list">
+      <div class="product-list-item">
+        <figure>
+          <h2>Gorilles</h2>
+          <img src="images/th/th-image-01.jpg" alt="">
+          <p>Gorilla, les Gorilles, est un genre de singes appartenant à la famille des Hominidés. Ce sont les singes les plus proches de l'Homme après les Chimpanzés, puisque l'ADN des gorilles est à 98,4 % identique à celui des humains.
+            Gorilla est le plus grand des huit genres de la super-famille des hominoïdes. Les mâles, en particulier, peuvent développer une force physique colossale. </p> <br/>
+            <a href="" class="more-link">En savoir plus</a>
+        </figure>
       </div>
 
-      <nav>
+      <div class="product-list-item">
+        <figure>
+          <h2>Chimpanzés</h2>
+          <img src="images/th/th-image-02.jpg" alt="">
+          <p>Les Chimpanzés forment un genre (Pan) de singes appartenant à la famille des hominidés. Ce genre comprend deux espèces :
+            le Chimpanzé commun (Pan troglodytes) et le Chimpanzé nain, plus connu sous le nom de Bonobo (Pan paniscus).
+            Ces hominidés d'Afrique équatoriale sont les animaux génétiquement les plus proches de l'espèce humaine. </p><br/>
+          <a href="" class="more-link">En savoir plus</a>
+        </figure>
+      </div>
+
+      <div class="product-list-item">
+        <figure>
+          <h2>Orang outan</h2>
+          <img src="images/th/th-image-12.jpg" alt="">
+          <p>Les Orangs-outans forment un genre de singes appartenant à la famille des hominidés. Ce sont des grands singes diurnes,
+            au pelage clairsemé de couleur rouille à orange foncé, qui comme les autres hominoïdes, ne possèdent pas de queue. </p><br/>
+          <a href="" class="more-link">En savoir plus</a>
+        </figure>
+      </div>
+
+      <div class="product-list-item">
+        <figure>
+          <h2>Orang Outan</h2>
+          <img src="images/th/th-image-13.jpg" alt="">
+          <p>Les Orangs-outans forment un genre de singes appartenant à la famille des hominidés.
+            Ce sont des grands singes diurnes, au pelage clairsemé de couleur rouille à orange foncé, qui comme les autres hominoïdes, ne possèdent pas de queue. </p><br/>
+          <a href="" class="more-link">En savoir plus</a>
+        </figure>
+      </div>
+
+      <div class="product-list-item">
+        <figure>
+          <h2>Gibbon</h2>
+          <img src="images/th/th-image-14.jpg" alt="">
+          <p>Les hylobatidés (Hylobatidae) sont une famille de primates hominoïdes (les grands singes)
+            appelés couramment gibbons. Certaines espèces sont plus précisément appelées houlock ou siamang. </p><br/>
+          <a href="" class="more-link"> En savoir plus</a>
+        </figure>
+      </div>
+
+      <div class="product-list-item">
+        <figure>
+          <h2>Gibbon</h2>
+          <img src="images/th/th-image-15.jpg" alt="">
+          <p>Les hylobatidés (Hylobatidae) sont une famille de primates hominoïdes (les grands singes)
+            appelés couramment gibbons. Certaines espèces sont plus précisément appelées houlock ou siamang. </p><br/>
+          <a href="" class="more-link">En savoir plus</a>
+        </figure>
+      </div>
+
+      <div class="product-list-item">
+        <figure>
+          <h2>Chimpanzés</h2>
+          <img src="images/th/th-image-11.jpg" alt="">
+          <p>Les Chimpanzés forment un genre (Pan) de singes appartenant à la famille des hominidés.
+            Ce genre comprend deux espèces : le Chimpanzé commun (Pan troglodytes) et le Chimpanzé nain,
+            plus connu sous le nom de Bonobo (Pan paniscus). Ces hominidés d'Afrique équatoriale sont les animaux
+            génétiquement les plus proches de l'espèce humaine. </p><br/>
+          <a href="" class="more-link">En savoir plus</a>
+        </figure>
+      </div>
+
+      <div class="product-list-item">
+        <figure>
+          <h2>Bonobo</h2>
+          <img src="images/th/th-image-08.jpg" alt="bonobo">
+          <p>Le Bonobo, Chimpanzé nain ou Chimpanzé pygmée est une espèce de primates de la famille des Hominidés.
+            Proche du Chimpanzé commun, il s'en distingue surtout par une organisation sociale qui a recours aux
+            relations sexuelles et à un bouc émissaire comme mode de résolution des conflits au sein du groupe. </p><br/>
+          <a href="" class="more-link">En savoir plus</a>
+        </figure>
+      </div>
+
+      <div class="product-list-item">
+        <figure>
+          <h2>Gorilles</h2>
+          <img src="images/th/th-image-01.jpg" alt="">
+          <p>Gorilla, les Gorilles, est un genre de singes appartenant à la famille des Hominidés.
+            Ce sont les singes les plus proches de l'Homme après les Chimpanzés, puisque l'ADN des gorilles est à 98,4 % identique à celui des humains.
+            Gorilla est le plus grand des huit genres de la super-famille des hominoïdes.
+            Les mâles, en particulier, peuvent développer une force physique colossale. </p><br/>
+            <a href="" class="more-link">En savoir plus</a>
+        </figure>
+      </div>
+
+      <div class="product-list-item">
+        <figure>
+          <h2>Chimpanzés</h2>
+          <img src="images/th/th-image-02.jpg" alt="">
+          <p>Les Chimpanzés forment un genre (Pan) de singes appartenant à la famille des hominidés.
+            Ce genre comprend deux espèces : le Chimpanzé commun (Pan troglodytes) et le Chimpanzé nain,
+            plus connu sous le nom de Bonobo (Pan paniscus).
+            Ces hominidés d'Afrique équatoriale sont les animaux génétiquement les plus proches de l'espèce humaine. </p><br/>
+          <a href="" class="more-link">En savoir plus</a>
+        </figure>
+      </div>
+
+      <div class="product-list-item">
+        <figure>
+          <h2>Orang outan</h2>
+          <img src="images/th/th-image-12.jpg" alt="">
+          <p>Les Orangs-outans forment un genre de singes appartenant à la famille des hominidés.
+            Ce sont des grands singes diurnes, au pelage clairsemé de couleur rouille à orange foncé,
+            qui comme les autres hominoïdes, ne possèdent pas de queue. </p><br/>
+          <a href="" class="more-link">En savoir plus</a>
+        </figure>
+      </div>
+
+      <div class="product-list-item">
+        <figure>
+          <h2>Orang Outan</h2>
+          <img src="images/th/th-image-13.jpg" alt="">
+          <p>Les Orangs-outans forment un genre de singes appartenant à la famille des hominidés.
+            Ce sont des grands singes diurnes, au pelage clairsemé de couleur rouille à orange foncé,
+            qui comme les autres hominoïdes, ne possèdent pas de queue. </p><br/>
+          <a href="" class="more-link">En savoir plus</a>
+        </figure>
+      </div>
+
+      <div class="product-list-item">
+        <figure>
+          <h2>Gibbon</h2>
+          <img src="images/th/th-image-14.jpg" alt="">
+          <p>Les hylobatidés (Hylobatidae) sont une famille de primates hominoïdes
+            (les grands singes) appelés couramment gibbons.
+            Certaines espèces sont plus précisément appelées houlock ou siamang. </p><br/>
+          <a href="" class="more-link"> En savoir plus</a>
+        </figure>
+      </div>
+
+      <div class="product-list-item">
+        <figure>
+          <h2>Gibbon</h2>
+          <img src="images/th/th-image-15.jpg" alt="">
+          <p>Les hylobatidés (Hylobatidae) sont une famille de primates hominoïdes
+            (les grands singes) appelés couramment gibbons.
+            Certaines espèces sont plus précisément appelées houlock ou siamang. </p><br/>
+          <a href="" class="more-link">En savoir plus</a>
+        </figure>
+      </div>
+
+      <div class="product-list-item">
+        <figure>
+          <h2>Chimpanzés</h2>
+          <img src="images/th/th-image-11.jpg" alt="">
+          <p>Les Chimpanzés forment un genre (Pan) de singes appartenant à la famille des hominidés.
+            Ce genre comprend deux espèces : le Chimpanzé commun (Pan troglodytes)
+            et le Chimpanzé nain, plus connu sous le nom de Bonobo (Pan paniscus).
+            Ces hominidés d'Afrique équatoriale sont les animaux génétiquement les plus proches de l'espèce humaine. </p><br/>
+          <a href="" class="more-link">En savoir plus</a>
+        </figure>
+      </div>
+
+      <div class="product-list-item">
+        <figure>
+          <h2>Bonobo</h2>
+          <img src="images/th/th-image-08.jpg" alt="bonobo">
+          <p>Le Bonobo, Chimpanzé nain ou Chimpanzé pygmée est une espèce de primates de la famille des Hominidés.
+            Proche du Chimpanzé commun, il s'en distingue surtout par une organisation sociale qui a
+            recours aux relations sexuelles et à un bouc émissaire comme mode de résolution des conflits
+            au sein du groupe. </p><br/>
+          <a href="" class="more-link">En savoir plus</a>
+        </figure>
+      </div>
+
+    </div>
+  </article>
+
+  <footer>
+    <div class="footer_style">
+
+      <div class="pic">
+        <h2>À propos</h2>
+        <div class="flex_row">
+        <img src="images/clara.jpg" alt="clara" class="picme">
+        <p>Clara Chalot <br /> clarachalott@gmail.com</p>
+      </div>
+      </div>
+
+      <div>
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="list.html">Lists</a></li>
           <li><a href="01-proboscis.html">Proboscis</a></li>
         </ul>
-      </nav>
-
-    </header>
-
-  <article class="">
-    <h1>Here are the gorillas</h1>
-    <div class="gorilla-list">
-      <div class="goilla-list-item">
-        <figure>
-          <h3>The monkeys</h3>
-          <img src="images/th/th-image-00.jpg" alt="">
-          <p>Another thing that makes chimpanzees and humans remarkable is our culture, or all the learned traditions, behaviors, and values passed through generations. Because primates learn from other members in their social groups, different geographical populations of chimpanzees and humans exhibit predispositions to different behaviors, making groups culturally distinct from one another. </p>
-          <a href="" class="more-link">Read More</a>
-        </figure>
-      </div>
-
-      <div class="goilla-list-item">
-        <figure>
-          <h3>The monkeys</h3>
-          <img src="images/th/th-image-00.jpg" alt="">
-          <p>Another thing that makes chimpanzees and humans remarkable is our culture, or all the learned traditions, behaviors, and values passed through generations. Because primates learn from other members in their social groups, different geographical populations of chimpanzees and humans exhibit predispositions to different behaviors, making groups culturally distinct from one another. </p>
-          <a href="" class="more-link">Read More</a>
-        </figure>
-      </div>
-
-      <div class="goilla-list-item">
-        <figure>
-          <h3>The monkeys</h3>
-          <img src="images/th/th-image-00.jpg" alt="">
-          <p>Another thing that makes chimpanzees and humans remarkable is our culture, or all the learned traditions, behaviors, and values passed through generations. Because primates learn from other members in their social groups, different geographical populations of chimpanzees and humans exhibit predispositions to different behaviors, making groups culturally distinct from one another. </p>
-          <a href="" class="more-link">Read More</a>
-        </figure>
-      </div>
-
-      <div class="goilla-list-item">
-        <figure>
-          <h3>The monkeys</h3>
-          <img src="images/th/th-image-00.jpg" alt="">
-          <p>Another thing that makes chimpanzees and humans remarkable is our culture, or all the learned traditions, behaviors, and values passed through generations. Because primates learn from other members in their social groups, different geographical populations of chimpanzees and humans exhibit predispositions to different behaviors, making groups culturally distinct from one another. </p>
-          <a href="" class="more-link">Read More</a>
-        </figure>
-      </div>
-
-      <div class="goilla-list-item">
-        <figure>
-          <h3>The monkeys</h3>
-          <img src="images/th/th-image-00.jpg" alt="">
-          <p>Another thing that makes chimpanzees and humans remarkable is our culture, or all the learned traditions, behaviors, and values passed through generations. Because primates learn from other members in their social groups, different geographical populations of chimpanzees and humans exhibit predispositions to different behaviors, making groups culturally distinct from one another. </p>
-          <a href="" class="more-link">Read More</a>
-        </figure>
-      </div>
-
-      <div class="goilla-list-item">
-        <figure>
-          <h3>The monkeys</h3>
-          <img src="images/th/th-image-00.jpg" alt="">
-          <p>Another thing that makes chimpanzees and humans remarkable is our culture, or all the learned traditions, behaviors, and values passed through generations. Because primates learn from other members in their social groups, different geographical populations of chimpanzees and humans exhibit predispositions to different behaviors, making groups culturally distinct from one another. </p>
-          <a href="" class="more-link">Read More</a>
-        </figure>
-      </div>
-
-      <div class="goilla-list-item">
-        <figure>
-          <h3>The monkeys</h3>
-          <img src="images/th/th-image-00.jpg" alt="">
-          <p>Another thing that makes chimpanzees and humans remarkable is our culture, or all the learned traditions, behaviors, and values passed through generations. Because primates learn from other members in their social groups, different geographical populations of chimpanzees and humans exhibit predispositions to different behaviors, making groups culturally distinct from one another. </p>
-          <a href="" class="more-link">Read More</a>
-        </figure>
-      </div>
-
-      <div class="goilla-list-item">
-        <figure>
-          <h3>The monkeys</h3>
-          <img src="images/th/th-image-00.jpg" alt="">
-          <p>Another thing that makes chimpanzees and humans remarkable is our culture, or all the learned traditions, behaviors, and values passed through generations. Because primates learn from other members in their social groups, different geographical populations of chimpanzees and humans exhibit predispositions to different behaviors, making groups culturally distinct from one another. </p>
-          <a href="" class="more-link">Read More</a>
-        </figure>
-      </div>
-
-      <div class="goilla-list-item">
-        <figure>
-          <h3>The monkeys</h3>
-          <img src="images/th/th-image-00.jpg" alt="">
-          <p>Another thing that makes chimpanzees and humans remarkable is our culture, or all the learned traditions, behaviors, and values passed through generations. Because primates learn from other members in their social groups, different geographical populations of chimpanzees and humans exhibit predispositions to different behaviors, making groups culturally distinct from one another. </p>
-          <a href="" class="more-link">Read More</a>
-        </figure>
-      </div>
-
-      <div class="goilla-list-item">
-        <figure>
-          <h3>The monkeys</h3>
-          <img src="images/th/th-image-00.jpg" alt="">
-          <p>Another thing that makes chimpanzees and humans remarkable is our culture, or all the learned traditions, behaviors, and values passed through generations. Because primates learn from other members in their social groups, different geographical populations of chimpanzees and humans exhibit predispositions to different behaviors, making groups culturally distinct from one another. </p>
-          <a href="" class="more-link">Read More</a>
-        </figure>
-      </div>
-
-      <div class="goilla-list-item">
-        <figure>
-          <h3>The monkeys</h3>
-          <img src="images/th/th-image-00.jpg" alt="">
-          <p>Another thing that makes chimpanzees and humans remarkable is our culture, or all the learned traditions, behaviors, and values passed through generations. Because primates learn from other members in their social groups, different geographical populations of chimpanzees and humans exhibit predispositions to different behaviors, making groups culturally distinct from one another. </p>
-          <a href="" class="more-link">Read More</a>
-        </figure>
-      </div>
-
-      <div class="goilla-list-item">
-        <figure>
-          <h3>The monkeys</h3>
-          <img src="images/th/th-image-00.jpg" alt="">
-          <p>Another thing that makes chimpanzees and humans remarkable is our culture, or all the learned traditions, behaviors, and values passed through generations. Because primates learn from other members in their social groups, different geographical populations of chimpanzees and humans exhibit predispositions to different behaviors, making groups culturally distinct from one another. </p>
-          <a href="" class="more-link">Read More</a>
-        </figure>
-      </div>
-
-      <div class="goilla-list-item">
-        <figure>
-          <h3>The monkeys</h3>
-          <img src="images/th/th-image-00.jpg" alt="">
-          <p>Another thing that makes chimpanzees and humans remarkable is our culture, or all the learned traditions, behaviors, and values passed through generations. Because primates learn from other members in their social groups, different geographical populations of chimpanzees and humans exhibit predispositions to different behaviors, making groups culturally distinct from one another. </p>
-          <a href="" class="more-link">Read More</a>
-        </figure>
-      </div>
-
-      <div class="goilla-list-item">
-        <figure>
-          <h3>The monkeys</h3>
-          <img src="images/th/th-image-00.jpg" alt="">
-          <p>Another thing that makes chimpanzees and humans remarkable is our culture, or all the learned traditions, behaviors, and values passed through generations. Because primates learn from other members in their social groups, different geographical populations of chimpanzees and humans exhibit predispositions to different behaviors, making groups culturally distinct from one another. </p>
-          <a href="" class="more-link">Read More</a>
-        </figure>
-      </div>
-
-      <div class="goilla-list-item">
-        <figure>
-          <h3>The monkeys</h3>
-          <img src="images/th/th-image-00.jpg" alt="">
-          <p>Another thing that makes chimpanzees and humans remarkable is our culture, or all the learned traditions, behaviors, and values passed through generations. Because primates learn from other members in their social groups, different geographical populations of chimpanzees and humans exhibit predispositions to different behaviors, making groups culturally distinct from one another. </p>
-          <a href="" class="more-link">Read More</a>
-        </figure>
-      </div>
-
-      <div class="goilla-list-item">
-        <figure>
-          <h3>The monkeys</h3>
-          <img src="images/th/th-image-00.jpg" alt="">
-          <p>Another thing that makes chimpanzees and humans remarkable is our culture, or all the learned traditions, behaviors, and values passed through generations. Because primates learn from other members in their social groups, different geographical populations of chimpanzees and humans exhibit predispositions to different behaviors, making groups culturally distinct from one another. </p>
-          <a href="" class="more-link">Read More</a>
-        </figure>
       </div>
 
     </div>
 
-
-  </article>
-
-  <footer>
-    <div class="">
-      <h1>I'm a footer menu</h1>
-      <p>When I grow up, I'm going to be beautiful</p>
-      <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="list.html">Lists</a></li>
-          <li><a href="01-proboscis.html">Proboscis</a></li>
-        </ul>
-      </nav>
-    </div>
   </footer>
 
   </body>
